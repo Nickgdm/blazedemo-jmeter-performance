@@ -1,17 +1,13 @@
-╔══════════════════════════════════════════════════════╗
-║       TESTE DE PERFORMANCE COM APACHE JMETER          ║
-║                      BLAZEDEMO                        ║
-╚══════════════════════════════════════════════════════╝
-
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                              TESTE DE PERFORMANCE COM APACHE JMETER BLAZEDEMO                           ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
 Projeto de estudo de teste de performance para o site de demonstração BlazeDemo, utilizando Apache JMeter e dados CSV para parametrizar buscas de voos.
-
-════════════════════════════════════════════════════════
 
 ## Sobre o projeto
 
 O repositório contém um plano de teste do JMeter e uma massa de dados para praticar requisições HTTP parametrizadas e execução com usuários virtuais concorrentes.
-
-════════════════════════════════════════════════════════
 
 ## Objetivos
 
@@ -19,8 +15,6 @@ O repositório contém um plano de teste do JMeter e uma massa de dados para pra
 - Parametrizar origem e destino com dados CSV.
 - Exercitar o sistema com usuários virtuais concorrentes.
 - Praticar a configuração e a execução de um plano de teste de performance.
-
-════════════════════════════════════════════════════════
 
 ## Tecnologias e arquivos
 
@@ -30,15 +24,11 @@ O repositório contém um plano de teste do JMeter e uma massa de dados para pra
 - `Test Plan.jmx`: plano de teste configurado com 50 usuários virtuais, ramp-up de 180 segundos e duração de 300 segundos.
 - `massa_dados.csv`: dados de origem e destino utilizados para parametrizar as requisições.
 
-════════════════════════════════════════════════════════
-
 ## Pré-requisitos
 
 - Java compatível com a versão do JMeter instalada.
 - Apache JMeter 5.6.3 ou versão compatível.
 - Acesso à internet para alcançar o site de demonstração.
-
-════════════════════════════════════════════════════════
 
 ## Como executar
 
@@ -55,8 +45,6 @@ Após validar o plano, também é possível executar em modo não gráfico:
 jmeter -n -t "Test Plan.jmx" -l resultados.jtl
 ```
 
-════════════════════════════════════════════════════════
-
 ## Estrutura do projeto
 
 ```text
@@ -66,13 +54,9 @@ atividade-jmeter-blazedemo/
 └── README.md
 ```
 
-════════════════════════════════════════════════════════
-
 ## Desafios práticos
 
 A atividade aborda a parametrização de requisições com CSV e a configuração de usuários virtuais, ramp-up e duração do teste. Um ponto importante é substituir o caminho absoluto do arquivo CSV por um caminho válido na máquina de execução.
-
-════════════════════════════════════════════════════════
 
 ## Boas práticas
 
@@ -81,22 +65,16 @@ A atividade aborda a parametrização de requisições com CSV e a configuraçã
 - Validar inicialmente com carga reduzida.
 - Registrar os resultados em arquivo JTL para análise posterior.
 
-════════════════════════════════════════════════════════
-
 ## Aprendizados
 
 A atividade permite praticar a configuração de um plano de teste de performance no Apache JMeter, incluindo requisições HTTP, dados parametrizados por CSV e definição de usuários virtuais, ramp-up e duração. Também reforça a importância de analisar métricas como tempo de resposta, taxa de erro e throughput sem presumir resultados antes da execução.
 
-════════════════════════════════════════════════════════
-
 ## Considerações finais
 
 A configuração de carga não representa, por si só, um resultado de performance. Execute testes apenas em ambientes para os quais tenha autorização e registre as métricas observadas.
-
-════════════════════════════════════════════════════════
-
-## Formação e natureza da atividade
-
-Este projeto foi desenvolvido como uma **atividade facultativa** no contexto dos estudos de Quality Assurance (QA), durante a formação da EBAC — Escola Britânica de Artes Criativas e Tecnologia. Seu objetivo é praticar e consolidar conhecimentos de testes de performance.
-
-════════════════════════════════════════════════════════
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║       Atividade desenvolvida durante a formação profissionalizante em Quality Assurance (QA) pela       ║
+║                     EBAC — Escola Britânica de Artes Criativas e Tecnologia                             ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
